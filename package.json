@@ -1,0 +1,34 @@
+{
+  "name": "protected-routes",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cookies": "^0.9.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "jest": "^29.7.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
